@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Alexanderdwg.github.io/rsschool-cv/cv
