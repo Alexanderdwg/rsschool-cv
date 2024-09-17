@@ -1,0 +1,73 @@
+@keyframes color-change {
+	0% {
+		color: black;
+	}
+	40% {
+		color: black;
+	}
+	45% {
+		color: rgba(255, 0, 0, 0.5);
+    }
+	100% {
+		color: black;
+	}
+}
+
+.box {
+	display: flex;
+	flex-direction: row;
+}
+.central-column {
+	flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side-block {
+	background-color: grey;
+	width: 20%;
+}
+
+header {
+	background-color: grey;
+}
+main {
+    background-color: white;
+	padding: 5px 30px 30px 30px;
+    border: 2px solid black;
+    max-width: 600px;
+}
+body {
+	background-color: grey;
+	font-family: Tahoma, serif;
+}
+h1 {
+	text-align: center;
+	animation: color-change 8s infinite;
+} 
+h2 {
+	margin-top: 1em;
+	margin-bottom: .1em;
+}
+h1, h2 {
+	font-family: Arial, sans-serif;
+}
+.center {
+	text-align: center;
+}
+
+p  {
+	margin-top: .5em;
+	padding-left: 20px;
+}
+ul {
+	margin-top: .5em;
+}
+img {
+	margin-bottom: 20px;
+}
+code {
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: rgb(230, 230, 230);
+}
